@@ -37,15 +37,15 @@ header
 }
 .logo-img2
 {
- height: 150px;
- background-image: url(img2/flow02.png);
+  height: 150px;
+  background-image: url(img2/flow02.png);
   background-position: bottom;
   background-size: cover;
 }
 .logo-img3
 {
  height: 150px;
- background-image: url(img2/flow03.png);
+  background-image: url(img2/flow03.png);
   background-position: bottom;
   background-size: cover;
 }
@@ -68,17 +68,18 @@ footer {
 }
 @media screen and (max-width: 768px) {
  .main{
-  width: 90%;
+ width: 100%;
  margin: 0 auto;
  
  } 
  .contents {
-  width: 90%;
+  width: 100%;
   display: block;
   
    }
  
  .logo1, .logo2, .logo3{
+ width: 90%;
  margin-bottom: 20px;
  margin-right: auto;
  margin-left: auto;
